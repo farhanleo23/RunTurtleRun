@@ -31,7 +31,7 @@ public class TurtleMovement : MonoBehaviour
         // checking for inputs
         if (Input.touches.Length > 0)
         {
-            Debug.Log("hello");
+           // Debug.Log("hello");
             if (Input.touches[0].phase == TouchPhase.Began)
             {
                 tap = true;
