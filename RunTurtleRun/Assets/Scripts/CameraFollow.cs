@@ -11,13 +11,13 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MoveTowardsTarget();
+      //  MoveTowardsTarget();
 
       
     }
 
 
-    private void MoveTowardsTarget()
+  /*  private void MoveTowardsTarget()
     {
         //the speed, in units per second, we want to move towards the target
         float speed = 1;
@@ -39,7 +39,7 @@ public class CameraFollow : MonoBehaviour
                 (directionOfTravel.z * speed * Time.deltaTime),
                 Space.World);
         }
-    }
+    } */
 
 
 }
