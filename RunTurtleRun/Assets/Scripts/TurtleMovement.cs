@@ -12,30 +12,8 @@ public class TurtleMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         MoveTowardsTarget();
-
-        if (Input.touchCount == 1)
-        {
-            var touch = Input.touches[0];
-            if (touch.position.x < Screen.width / 2)
-            {
-                LeftSide();
-            }
-            else if (touch.position.x > Screen.width / 2)
-            {
-                RightSide();
-            }
-        }
 	}
 
-    private void LeftSide() {
-
-
-    }
-
-    private void RightSide() {
-
-
-    }
 
    
     private void MoveTowardsTarget()
