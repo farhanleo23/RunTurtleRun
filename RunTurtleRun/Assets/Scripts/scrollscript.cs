@@ -21,14 +21,8 @@ public class scrollscript : MonoBehaviour
         //transform.position = Vector3.MoveTowards(startPos, s,  Time.deltaTime);
         transform.position = startPos + Vector3.forward * newPos;
 
-        GameObject go = GameObject.Find("temp");
-        /*if (go != null)
-        {
-            newPos = go.transform
-        }
-        else
-        {
-            Debug.Log("House not found");*/
+      
+
     }
 
 }
