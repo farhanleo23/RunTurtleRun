@@ -467,6 +467,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0fb0ec3f722014c938ab0373636ef9e6, type: 2}
+    - target: {fileID: 9500000, guid: 54d2924101d9f4191bf99b133858ca80, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9779ee74551f040388e813071d18f735, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 54d2924101d9f4191bf99b133858ca80, type: 3}
   m_IsPrefabParent: 0
@@ -489,7 +493,7 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 400046, guid: 54d2924101d9f4191bf99b133858ca80, type: 3}
   m_PrefabInternal: {fileID: 1481019851}
---- !u!114 &1702842771
+--- !u!114 &1702842772
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -497,9 +501,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1702842768}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e07f989d1cca447428472b774968bc36, type: 3}
+  m_Script: {fileID: 11500000, guid: 6d3dbb0a68f3d41fa822f804d5c99618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 1702842775}
 --- !u!143 &1702842773
 CharacterController:
   m_ObjectHideFlags: 0
@@ -529,6 +534,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LANE_DISTANCE: 4
+--- !u!95 &1702842775 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 9500000, guid: 54d2924101d9f4191bf99b133858ca80,
+    type: 3}
+  m_PrefabInternal: {fileID: 1481019851}
 --- !u!1001 &1787302789
 Prefab:
   m_ObjectHideFlags: 0
