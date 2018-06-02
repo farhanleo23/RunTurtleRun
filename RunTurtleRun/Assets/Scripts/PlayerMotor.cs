@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMotor : MonoBehaviour {
 
     [SerializeField]
-    private float LANE_DISTANCE = 9.0f;
+    private float LANE_DISTANCE = 5.0f;
 
     private CharacterController controller;
   //  private float jumpForce = 4.0f;

@@ -160,7 +160,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: a3b1457832d76654eae613a68fbc8aef, type: 2}
+  - {fileID: 2100000, guid: 504ae362e57fc464b847f1e9fd0e4035, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -195,7 +195,7 @@ Transform:
   m_GameObject: {fileID: 78396843}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.7212044, y: 0.83, z: 5.5653067}
-  m_LocalScale: {x: 12, y: 1, z: 50}
+  m_LocalScale: {x: 5, y: 1, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -339,7 +339,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 447828340}
-  m_LocalRotation: {x: 0.14226285, y: -0.0071525546, z: -0.00034691973, w: 0.989803}
+  m_LocalRotation: {x: 0.14226286, y: -0.0071525555, z: -0.00034691952, w: 0.9898031}
   m_LocalPosition: {x: -0.0031399988, y: 0.0353, z: -0.071}
   m_LocalScale: {x: 0.009999999, y: 0.01, z: 0.009999999}
   m_Children: []
@@ -463,6 +463,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 2.236
       objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 54d2924101d9f4191bf99b133858ca80, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0fb0ec3f722014c938ab0373636ef9e6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 54d2924101d9f4191bf99b133858ca80, type: 3}
   m_IsPrefabParent: 0
